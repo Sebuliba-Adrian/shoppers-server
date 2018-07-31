@@ -3,7 +3,7 @@ A shopping list application for those who love shopping. It helps keeping track 
 This is an API version 1.0 for the shoppinglist api called "shoppers" designed using the lumen microframework in php
 
 ### Live demo
-[https://doofrecipeapi.herokuapp.com/apidocs](https://doofrecipeapi.herokuapp.com/apidocs)
+coming soon
 
 
 ### Set Up
