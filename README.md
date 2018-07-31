@@ -54,8 +54,8 @@ $ php artisan migrate
 | [ GET /categories/\<category_id> ](#) | Get single category | FALSE |
 | [ PUT /categories/\<category_id> ](#) | Update this category | FALSE |
 | [ DELETE /categories/\<category_id> ](#) | Delete this single category | FALSE |
-| [ POST /categories/\<category_id>/recipes ](#) | Create a new recipe category | FALSE |
-| [ PUT /categories/\<category_id>/items/<item_id> ](#) | Update a recipe | FALSE |
-| [ DELETE /categories/\<category_id>/items/<item_id> ](#) | Delete a recipe in a category | FALSE |
+| [ POST /categories/\<category_id>/recipes ](#) | Create a new item category | FALSE |
+| [ PUT /categories/\<category_id>/items/<item_id> ](#) | Update an item | FALSE |
+| [ DELETE /categories/\<category_id>/items/<item_id> ](#) | Delete an item in a category | FALSE |
 
 Others specs coming soon. Enjoy
