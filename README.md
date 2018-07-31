@@ -1,8 +1,5 @@
 # Shoppers
 A shopping list application for those who love shopping. It helps keeping track of a shopper's list of items
-
-# DoofRestfulApi
-
 This is an API version 1.0 for the shoppinglist api called "shoppers" designed using the lumen microframework in php
 
 ### Live demo
