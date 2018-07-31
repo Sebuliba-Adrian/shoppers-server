@@ -10,7 +10,7 @@ This is an API version 1.0 for the shoppinglist api called "shoppers" designed u
 
 
 ### Set Up
-You should have [git](https://git-scm.com/), [php](http://www.php.net/), [composer](https://getcomposer.org/), [postgresql](https://www.postgresql.org/)installed
+You should have [git](https://git-scm.com/), [php](http://www.php.net/), [composer](https://getcomposer.org/), [postgresql](https://www.postgresql.org/) installed
 ##### These instructions are specific to a linux, macOS or and windows based machine
 1. Open your terminal/commandline
 2. Clone the project using `git clone https://github.com/sebuliba-adrian/shoppers-server`
