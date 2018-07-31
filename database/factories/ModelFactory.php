@@ -11,9 +11,26 @@
 |
 */
 
-$factory->define(App\User::class, function (Faker\Generator $faker) {
+$factory->define(App\Models\Category::class, function (Faker\Generator $faker) {
     return [
-        'name' => $faker->name,
-        'email' => $faker->email,
+        'name' => $faker->word,
+    ];
+});
+
+$factory->define(App\Models\Item::class, function (Faker\Generator $faker) {
+    return [
+        'name' => $faker->word,
+        'description' => $faker->word,
+        'price' => $faker->word,
+        'quantity' => $faker->word,
+
+    ];
+});
+
+$factory->define(App\Models\User::class, function (Faker\Generator $faker) {
+    return [
+        'name'     => $faker->name,
+        'email'    => $faker->unique()->email,
+        'password' => password_hash('12345', PASSWORD_BCRYPT),
     ];
 });
